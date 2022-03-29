@@ -18,7 +18,7 @@ export const staffInputFeildsReducer = (state = initialState, { type, payload })
 
         case staffActionsType.STAFF_INPUT_FEILDS :
         return {
-            
+            ...state, inputFeilds : payload
         }
 
         default : 

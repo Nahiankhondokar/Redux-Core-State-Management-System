@@ -1,9 +1,11 @@
 import { combineReducers } from 'redux';
-import {inputFeildsReducer} from './studentReducer';
+import { staffInputFeildsReducer } from './staffReducer';
+import { inputFeildsReducer } from './studentReducer';
 
 
 const reducers = combineReducers({
-    studentInput : inputFeildsReducer
+    studentInput : inputFeildsReducer,
+    staffInput   : staffInputFeildsReducer
 });
 
 
